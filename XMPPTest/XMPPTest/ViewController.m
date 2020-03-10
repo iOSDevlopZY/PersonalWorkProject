@@ -22,6 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     _isCurrentVC = true;
     // Do any additional setup after loading the view.
     UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(ScreenW*0.1, 0, ScreenW*0.8, ScreenH*0.2)];
