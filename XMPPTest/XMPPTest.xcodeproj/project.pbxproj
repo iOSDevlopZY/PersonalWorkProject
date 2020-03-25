@@ -174,6 +174,7 @@
 		0C0D780623F3D51D00F66E6F /* ChatRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D780523F3D51D00F66E6F /* ChatRoomViewController.m */; };
 		0CBB6D6923F4D53500D294CE /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB6D6723F4D53500D294CE /* base64.m */; };
 		0CBB6D6C23F6327C00D294CE /* XMPPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB6D6B23F6327C00D294CE /* XMPPHelper.m */; };
+		0CEA12A5242A0ED50008BC21 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEA12A4242A0ED50008BC21 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -535,6 +536,7 @@
 		0CBB6D6823F4D53500D294CE /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
 		0CBB6D6A23F6327C00D294CE /* XMPPHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMPPHelper.h; sourceTree = "<group>"; };
 		0CBB6D6B23F6327C00D294CE /* XMPPHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMPPHelper.m; sourceTree = "<group>"; };
+		0CEA12A4242A0ED50008BC21 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -546,6 +548,7 @@
 				0C0D77E823F3908C00F66E6F /* CFNetwork.framework in Frameworks */,
 				0C0D77E623F3908200F66E6F /* Foundation.framework in Frameworks */,
 				0C0D77E423F3906800F66E6F /* libxml2.tbd in Frameworks */,
+				0CEA12A5242A0ED50008BC21 /* MapKit.framework in Frameworks */,
 				0C0D77E223F3905200F66E6F /* libresolv.tbd in Frameworks */,
 				0C0D77DE23F38FD200F66E6F /* libidn.a in Frameworks */,
 			);
@@ -1535,6 +1538,7 @@
 		0C0D77E023F3905100F66E6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CEA12A4242A0ED50008BC21 /* MapKit.framework */,
 				0C0D77E923F390BF00F66E6F /* Security.framework */,
 				0C0D77E723F3908C00F66E6F /* CFNetwork.framework */,
 				0C0D77E523F3908200F66E6F /* Foundation.framework */,
