@@ -29,6 +29,7 @@
     [titleLabel setTextColor:[UIColor whiteColor]];
     [titleLabel setFont:[UIFont systemFontOfSize:30]];
     [titleLabel setTextAlignment:NSTextAlignmentCenter];
+    
     [titleLabel setText:@"XMPP"];
     [self.view addSubview:titleLabel];
     
